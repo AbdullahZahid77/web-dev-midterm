@@ -5,9 +5,9 @@ const MovieDetails = () => {
   const { id } = useParams();
 
   const movieDetails = {
-    1: { title: 'Inception', description: 'A mind-bending thriller.' },
-    2: { title: 'Interstellar', description: 'A space exploration adventure.' },
-    3: { title: 'The Dark Knight', description: 'A superhero crime drama.' },
+    1: { title: 'Inception', description: 'A mind-bending thriller. 1hr 34 mins long, action, thriller advneture' },
+    2: { title: 'Interstellar', description: 'A space exploration adventure.,  2 hr 30 mins long, action, thriller advneture' },
+    3: { title: 'The Dark Knight', description: 'A superhero crime drama.,  1hr long, action' },
   };
 
   const movie = movieDetails[id];

@@ -6,6 +6,7 @@ import SearchBar from './SearchBar';
 import MovieList from './MovieList';
 import MovieDetails from './MovieDetails';
 import Favorites from './Favorites';
+import SearchResults from './SearchResults';
 import { useGlobalState } from './GlobalState';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <Route path="/" element={<MovieList />} />
               <Route path="/movie/:id" element={<MovieDetails />} />
               <Route path="/favorites" element={<Favorites />} />
+              <Route path="/search" element={<SearchResults />} />
               {/* Add more routes as necessary */}
             </Routes>
           </main>
