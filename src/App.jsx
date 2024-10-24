@@ -7,6 +7,8 @@ import MovieList from './MovieList';
 import MovieDetails from './MovieDetails';
 import Favorites from './Favorites';
 import SearchResults from './SearchResults';
+import Films from './Films';
+
 import { useGlobalState } from './GlobalState';
 
 function App() {
@@ -24,7 +26,9 @@ function App() {
               <Route path="/movie/:id" element={<MovieDetails />} />
               <Route path="/favorites" element={<Favorites />} />
               <Route path="/search" element={<SearchResults />} />
-              {/* Add more routes as necessary */}
+              <Route path="/films" element={<Films />} />
+
+              
             </Routes>
           </main>
           <Footer />

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useGlobalState } from './GlobalState'; // Import your global state
+import { useGlobalState } from './GlobalState'; //  global state
 
 function Header() {
-  const { toggleTheme, state } = useGlobalState(); // Destructure toggleTheme and state from global state
+  const { toggleTheme, state } = useGlobalState();
 
   return (
     <header className="p-4 bg-blue-500 text-white">
@@ -16,6 +16,11 @@ function Header() {
           <li>
             <Link to="/favorites" className="hover:underline">Favorites</Link>
           </li>
+          <li>
+          <Link to="/films">Films</Link>
+
+          </li>
+
         </ul>
       </nav>
       <button

@@ -7,12 +7,12 @@ function useQuery() {
 }
 
 const SearchResults = () => {
-  const query = useQuery().get('query'); // Get the query parameter from the URL
+  const query = useQuery().get('query'); // Get query parameter from the URL
 
   return (
     <div>
       <h1>Search Results for "{query}"</h1>
-      <MovieList searchTerm={query} /> {/* Pass the search term to MovieList */}
+      <MovieList searchTerm={query} /> 
     </div>
   );
 };
