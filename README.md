@@ -1,3 +1,5 @@
+This repo contains the project i made for my web dev midterm, consisting of a movie application explorer. using axios, to fetsch data from omdb api
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
